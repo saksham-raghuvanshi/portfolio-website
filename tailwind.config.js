@@ -1,11 +1,9 @@
+/* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        mask: "url('./src/assets/images/mask.png')",
-      },
       colors: {
         primaryColor: "#0067FF",
         yellowColor: "#FEB60D",
