@@ -26,7 +26,7 @@ const Navbar = () => {
   const handlemenu = () => menuRef.current.classList.toggle("shown__menu");
   return (
     <header>
-      <div className="container">
+      <div className="container lg:ml-[10rem]">
         <div className="flex items-center justify-around h-[17vh]">
           <Link to="/">
             <h1 className=" text-[25px] md:text-[30px] font-[800] leading-7">

@@ -14,12 +14,7 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
-}
-
-html{
-  scroll-behavior: smooth;
-}
+  font-family: 'Poppins', sans-serif;}
 
 
 @layer base{
@@ -33,9 +28,9 @@ html{
     @apply max-w-full w-[1440px] px-5 mx-auto;
   }
 
-  .btn{
+  /* .btn{
     @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
-  }
+  } */
 
   
   .heading{
@@ -46,14 +41,12 @@ html{
     @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
   }
 
-  /* .header{
-    @apply bg-[url("./assets/images/mask.png")] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
-  } */
-  
-  /* .hero__section{
-    @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat bg-center bg-cover ;
+ 
+/*   
+  .hero__section{
+    @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat bg-center bg-cover ; */
 
-  } */
+  
 }
 
 
